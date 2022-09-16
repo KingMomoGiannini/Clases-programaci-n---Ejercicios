@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>  //ingresar dos valores y devolverlos intercambiados (Con punteros)
 void  intercambio(int *x, int*y){
     int c;
     c=*x;

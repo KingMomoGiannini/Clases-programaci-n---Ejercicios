@@ -1,5 +1,5 @@
-#include <stdio.h>
-
+#include <stdio.h>  //Ejercicio de repaso de Funciones - Giannini Sebastián Informatica Aplicada comisión 1-603 TT 2022
+/*Consigna: A partir de la funcion dada, descubrir que hace, luego utilizarla para crear un calendario a partir de una fecha en cuestión*/
 int diasemana(int a, int b, int c)
 {
   if (b<3)

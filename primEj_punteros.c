@@ -1,9 +1,11 @@
 /* 16/09/2022
-actividad_01: ingresar un numero e imprimir su doble usando una funci�n y pasaje x referencia con puntero
-programa hecho por x_chama_x */
+actividad_01: ingresar un numero e imprimir su doble usando una función y pasaje x referencia con puntero
+Giannini Sebastián - Informatica Aplicada Comisión 1-603 ; Programación I */
 
 #include <stdio.h>
-void doble(int *);
+void doble(int *a){
+    *a=*a*2;
+}
 
 int main (){
     int num,*p;
@@ -13,8 +15,4 @@ int main (){
     doble(p);
     printf("el doble es: %d",*p);
     return 0;
-}
-
-void doble(int *a){
-    *a=*a*2;
 }

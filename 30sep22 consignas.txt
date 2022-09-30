@@ -1,0 +1,7 @@
+30/09/2022
+
+1) definir un verctor de 50 elementos y cargar solo datos en las posiciónes pares.
+Crear dos funciones una para la carga y otra para mostrar.
+
+2) cargar una matriz de n x m con numeros al azar . Luego recorrer la matriz e indicar
+cuantos valores son cero. Tambien con 2 funciones.

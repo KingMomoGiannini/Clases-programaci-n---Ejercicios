@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<stdio.h>//Leer una palabra y mostrarla deletreada letra a letra Ejemplo: GRACIELA --> G-R-A-C-I-E-L-A
 #include<string.h>
 
 void deletrear(char name[]){
